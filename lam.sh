@@ -44,6 +44,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
 source ~/.nvm/nvm.sh
 nvm install v22.9.0
 node -v
+npm install -g npm@11.0.0
 git clone https://github.com/udhaindah/gosok.git
 mv gosok $NOM1
 cd $NOM1
